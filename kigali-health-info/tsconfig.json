@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app/index.jsx", "app/favorites.jsx", "app/all-guidelines.jsx", "app/guidelines/surgical-prophylaxis.jsx", "app/guidelines/sepsis.jsx", "app/guidelines/meningitis.jsx", "app/guidelines/community-acquired-pneumonia.jsx", "app/guidelines/uti.jsx", "app/context/FavoritesContext.jsx"  ]
 }
