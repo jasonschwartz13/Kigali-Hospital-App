@@ -29,7 +29,7 @@ export default function HomeScreen() {
           <Text style={styles.buttonText}>Antibiogram</Text>
         </Pressable>
 
-        <Pressable style={styles.button}>
+        <Pressable style={styles.button} onPress={() => router.push("/app-info")}>
           <Text style={styles.buttonText}>App Info</Text>
         </Pressable>
 

@@ -4,9 +4,15 @@ import { FavoritesProvider } from './context/FavoritesContext';
 export default function RootLayout() {
   return (
     <FavoritesProvider>
-      <Stack>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="all-guidelines" options={{ headerShown: false }} />
+      {/* Adding screenOptions here kills the default header globally */}
+      <Stack screenOptions={{ headerShown: false }}>
+        
+        {/* You can list specific screens if you want, but Stack will automatically 
+            find your files even if you don't list them all here! */}
+        <Stack.Screen name="index" />
+        <Stack.Screen name="all-guidelines" />
+        <Stack.Screen name="favorites" />
+        
       </Stack>
     </FavoritesProvider>
   );
