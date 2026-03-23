@@ -31,7 +31,11 @@ export default function AllGuidelinesScreen() {
         </Pressable>
 
         <Pressable style={styles.button} onPress={() => router.push("/guidelines/uti")}>
-          <Text style={styles.buttonText}>UTI</Text>
+          <Text style={styles.buttonText}>UTI (Adult)</Text>
+        </Pressable>
+
+        <Pressable style={styles.button} onPress={() => router.push("/guidelines/uti-child")}>
+          <Text style={styles.buttonText}>UTI (Child)</Text>
         </Pressable>
       </View>
     </View>

@@ -3,7 +3,7 @@ import { View, Text, Pressable, StyleSheet, ScrollView, TextInput } from "react-
 import { router } from "expo-router";
 import { Ionicons } from '@expo/vector-icons';
 import { useFavorites } from "../context/FavoritesContext"; 
-import capData from "../../data/community-acquired-pneumonia.json";
+import utiChildData from "../../data/uti-child.json";
 
 const CollapsibleSection = ({ section, searchQuery }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -61,17 +61,17 @@ const CollapsibleSection = ({ section, searchQuery }) => {
   );
 };
 
-export default function CommunityAcquiredPneumoniaScreen() {
+export default function UTIChildScreen() {
   const { toggleFavorite, isFavorite } = useFavorites();
   
-  // 2. USE THE JSON TITLE FOR FAVORITES
-  const pageInfo = { route: "/guidelines/community-acquired-pneumonia", name: capData.title };
+  // 2. UPDATE THE ROUTE NAME FOR FAVORITES
+  const pageInfo = { route: "/guidelines/uti-child", name: utiChildData.title };
   const isFav = isFavorite(pageInfo.route);
 
   const [searchQuery, setSearchQuery] = useState("");
 
-  // 3. FILTER THE CAP DATA
-  const filteredSections = capData.sections.filter((section) => {
+  // 3. FILTER THE CHILD DATA
+  const filteredSections = utiChildData.sections.filter((section) => {
     if (searchQuery.trim() === "") return true;
 
     const lowerCaseQuery = searchQuery.toLowerCase();
@@ -91,7 +91,8 @@ export default function CommunityAcquiredPneumoniaScreen() {
       </Pressable>
 
       <View style={styles.headerContainer}>
-        <Text style={styles.title}>{capData.title}</Text>
+        {/* 4. RENDER THE CHILD TITLE */}
+        <Text style={styles.title}>{utiChildData.title}</Text>
         <Pressable onPress={() => toggleFavorite(pageInfo)}>
           <Ionicons 
             name={isFav ? "star" : "star-outline"} 
@@ -134,12 +135,13 @@ export default function CommunityAcquiredPneumoniaScreen() {
   );
 }
 
+// Keep the exact same styles as your adult UTI page!
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#fff", paddingTop: 60 },
   backButton: { position: "absolute", top: 50, left: 20, zIndex: 10, padding: 8 },
   backArrow: { fontSize: 28, fontWeight: "bold", color: "#007AFF" },
-  headerContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 10, marginBottom: 15, gap: 10, paddingHorizontal: 40 },
-  title: { fontSize: 24, fontWeight: "bold", textAlign: 'center' }, // Slightly smaller font to fit "Community Acquired Pneumonia"
+  headerContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 10, marginBottom: 15, gap: 10 },
+  title: { fontSize: 28, fontWeight: "bold" },
   highlightedText: { fontWeight: 'bold', backgroundColor: '#fff3cd', color: '#000' },
   searchContainer: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#f2f2f2', marginHorizontal: 20, marginBottom: 15, borderRadius: 10, paddingHorizontal: 10, height: 45 },
   searchIcon: { marginRight: 8 },
