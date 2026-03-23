@@ -1,0 +1,233 @@
+{
+  "id": "uti-adult",
+  "title": "UTI (Adult)",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Infections of the urinary tract are usually caused by bacteria from the skin or rectum, which enter the urethra and infect the urinary tract. Cystitis is the most common type of urinary tract infection (UTI). Majority of pathogens in uncomplicated UTI are Escherichia coli (75-95%), other species of Enterobacteriaceae such as Proteus mirabilis and Klebsiella pneumoniae, and Staphylococcus saphrophyticus. A combination of clinical symptoms with dipstick and microscopic analysis (urinalysis) showing pyuria and/or positive nitrite and leukocyte esterase tests can be used and is sufficient for most cases as presumptive evidence of a urinary tract infection. Squamous epithelial cells in the sample may mean contamination of the urine sample. Microscopic hematuria is found in about half of the cystitis cases. Only 25% of patients with UTI have a positive nitrite test[cite: 608, 609]. Different classification systems of UTI exist: either based on anatomical level of UTI, severity of Infection, clinical presentation, the categorization of risk factors or availability of appropriate antimicrobial therapy."
+    },
+    {
+      "heading": "Purpose",
+      "body": "This guideline aims to guide the diagnosis and treatment of adults with urinary tract infections. It will help in recognizing different types of urinary tract infections and will give guidance to the right type of treatment. The guideline will also help to prevent unnecessary antibiotic use and support antimicrobial stewardship. This document applies to all clinical areas of care in King Faisal Hospital."
+    },
+    {
+      "heading": "Aim",
+      "body": "To improve the outcome of adult patients with a urinary tract infection, to promote adequate diagnosis, avoid complications and unnecessary treatment. To support antimicrobial stewardship."
+    },
+    {
+      "heading": "Rationale",
+      "body": "Missing or delay in the diagnosis of urinary tract infection can cause morbidity and even mortality. Giving unnecessary or incorrect antibiotics for urinary tract infections also promotes antimicrobial resistance and increases the risk for adverse drug events. Urinary tract infections are present in different departments of King Faisal Hospital[cite: 622, 624]. The current guidelines will help treatment to be more universal, coherent and in line with international guidelines."
+    },
+    {
+      "heading": "Scope of Guideline",
+      "body": "This guideline applies to all medical providers involved in patient care in King Faisal Hospital.",
+      "bullets": [
+        "Specific recommendations are made for outpatients and inpatients, divided in different subgroups.",
+        "Specific recommendations are made for certain multidrug-resistant pathogens.",
+        "Recommendations for paediatric patients are covered in a separate guideline."
+      ]
+    },
+    {
+      "heading": "Competencies required",
+      "body": "Every medical doctor involved in patient care should be able to apply the information of this guideline to his/her patients. All supporting staff such as nursing staff, pharmacy, head of departments, should know about the existence of the guideline and be able to implement recommendations."
+    },
+    {
+      "heading": "Definition of Key Terms",
+      "bullets": [
+        "Acute Uncomplicated Cystitis or Simple cystitis or Uncomplicated UTI: lower urinary tract symptoms (LUTS) as dysuria, frequency, hematuria or abdominal pain in combination with bacterial growth in the urine sample of more than 10.000 colony-forming units (CFU)/mL, based on culture results (in clean-catch urine specimens). Uncomplicated cystitis/UTI typically refers to an infection in non-pregnant women who are otherwise healthy, with no structural abnormalities of the urinary tract; and in some cases also in young, healthy males[cite: 634, 635].",
+        "Pyelonephritis: the presence of systemic signs and symptoms as fever (>38°C), costovertebral angle tenderness, chills, nausea/vomiting in combination with a positive urinalysis and ideally bacterial growth in the urine sample of more than 100.000 colony-forming units (CFU)/mL. These symptoms are often accompanied or preceded by symptoms of cystitis.",
+        "Complicated UTI: urinary tract infection in children, men (elderly), pregnant women, poorly controlled diabetes, CKD, immunocompromised, recent surgery / instrumentation and catheterized patients. Urinary tract infection in patients with anatomical/structural abnormalities, kidney stones and recent urological procedures. Urinary tract infection caused by atypical pathogens. The presence of systemic signs/symptoms in combination with dipstick and microscopic signs of UTI and lower urinary tract symptoms is also considered as a complicated UTI.",
+        "Urosepsis: a life-threatening organ dysfunction caused by a dysregulated host response to infection originating from the urinary tract and/or male genital organs.",
+        "Recurrent UTI: at least three UTIs per year or two UTIs during the last six months.",
+        "Asymptomatic bacteriuria: at least 10^5 CFU/mL in a voided clean-catch specimen from an individual without symptoms of urinary tract infection (UTI). The EAU and IDSA guideline definitions includes \"two consecutive samples in women and one single sample in men.\".",
+        "Multidrug resistance: non-susceptibility to at least one antimicrobial in three or more classes, based on in vitro antibiotic susceptibility testing.",
+        "PO: per os/oral.",
+        "OD: once daily.",
+        "BID: bis in die, twice a day.",
+        "TDS: ter die sumendum, three times a day.",
+        "QID: quater in die, four times a day."
+      ]
+    },
+    {
+      "heading": "Assessment of patients - Patient History",
+      "bullets": [
+        "Urinary complaints: hematuria, frequency, urgency, dysuria, sensation of bladder fullness or lower abdominal discomfort, suprapubic tenderness.",
+        "Flank pain.",
+        "Signs of systemic disease: fever, chills, malaise, confusion (elderly).",
+        "Pregnancy.",
+        "Previous urinary tract infections.",
+        "Previous antibiotics.",
+        "Urinary stents in place.",
+        "Kidney transplant.",
+        "If (recent) catheter: type and duration.",
+        "History of prior sexually transmitted disease (STD) and multiple current sexual partners.",
+        "History of vaginal discharge (which suggests that vaginitis, cervicitis, or pelvic inflammatory disease is responsible for symptoms of dysuria and necessitate an examination of the pelvis)."
+      ]
+    },
+    {
+      "heading": "Assessment of patients - Physical Examination",
+      "body": "In addition to vital signs, specific attention for: ",
+      "bullets": [
+        "Fever.",
+        "Suprapubic tenderness.",
+        "Costovertebral angle tenderness.",
+        "Digital rectal exam or vaginal examination when indicated."
+      ]
+    },
+    {
+      "heading": "Assessment of patients - Investigations",
+      "bullets": [
+        "Urinalysis: A combination of clinical symptoms with dipstick and microscopic analysis showing pyuria and/or positive nitrite and leukocyte esterase tests can be used and is sufficient for most cases as presumptive evidence of a urinary tract infection (highly specific but not sensitive)[cite: 673, 674]. WBC >10/μL on microscopy is suggestive but not diagnostic of UTI. Squamous epithelial cells in the sample may mean contamination of the urine sample. Microscopic hematuria is found in about half of the cystitis cases. Only 25% of patients with UTI have a positive nitrite test.",
+        "Urine culture is helpful to direct therapy. In most cases of acute uncomplicated cystitis in women, urine culture might not be necessary. Urine cultures are usually indicated in complicated UTI as mentioned above, if there are symptoms of pyelonephritis or sepsis, in pregnancy and recurrent UTI. Growth, if any, is expected within 24-48 hours. Growth is expressed in colony forming units, and the classic cut-off value to diagnose a UTI is 10^5 (100.000) colony-forming units/ml. If there are 10^4 or 10^3 CFU/ml, correlate clinically.",
+        "C-Reactive Protein (CRP), procalcitonin, full blood count in signs of more severe illness / pyelonephritis.",
+        "Creatinine and urea in case of pyelonephritis or complicated UTI.",
+        "Blood cultures in case of suspected urosepsis.",
+        "Ultrasound abdomen and CT-abdomen. Ultrasound should be performed to rule out urinary tract obstruction or renal stone disease in patients with a history of urolithiasis, in recurrent UTI, painless haematuria, high urine pH or renal function disturbances. CT scan should be considered if the patient remains febrile after 72 hours of treatment, or immediately if there is deterioration in clinical status[cite: 688, 689]. For diagnosis of complicating factors in pregnant women, ultrasound or magnetic resonance imaging (MRI) should be used preferentially to avoid radiation risk to the foetus[cite: 689, 690]."
+      ]
+    },
+    {
+      "heading": "Decision to hospitalize & Severity of illness assessment",
+      "body": "The decision to hospitalize patients with UTI should be individualized. Patients presenting with signs of sepsis should be admitted. Other indications for inpatient management include persistent high-grade fever (T>38.5°C), inability to take oral medication or concerns regarding urinary tract obstruction. Any patient with UTI presenting in sepsis (or septic shock) or altered mental status (mostly in elderly) should be considered as severe illness and has to be admitted accordingly."
+    },
+    {
+      "heading": "Differential diagnosis",
+      "bullets": [
+        "Urethritis: dysuria, frequency, and pyuria (dysuria-pyuria syndrome), which thus resembles cystitis. However, in urethritis (unlike in cystitis), routine urine cultures are usually negative. Possible causative organisms include Chlamydia trachomatis and Ureaplasma urealyticum, which are not detected on routine conventional urine culture.",
+        "Acute bacterial prostatitis: men can present with dysuria, urinary frequency/urgency, and pyuria in the setting of acute prostatitis. Often, but not always, these symptoms can be accompanied by systemic symptoms like fevers/chills, myalgias, and pelvic pain. A digital rectal exam with findings of an edematous and tender prostate can help distinguish this diagnosis from cystitis. Chronic prostatitis should also be considered in men with recurrent UTIs with the same pathogen.",
+        "Noninfectious causes: anatomic abnormalities (eg, urethral stenosis), physiologic abnormalities (eg, pelvic floor muscle dysfunction), hormonal imbalances (eg, atrophic urethritis), localized trauma, GI system symptoms, and inflammation.",
+        "Atrophic vaginitis results from estrogen loss and is often associated with vulvovaginal complaints (eg, dryness, burning, dyspareunia) in menopausal patients. Urinary frequency and recurrent bladder infections may also occur[cite: 706, 708]. Estrogen therapy and dehydroepiandrosterone (DHEA), either topical or oral, are the only hormone therapies for vaginal atrophy."
+      ]
+    },
+    {
+      "heading": "Treatment: Acute simple cystitis in non-pregnant women",
+      "body": "Routine post-treatment urinalysis or urine cultures are not recommended for asymptomatic patients. However, in women whose symptoms persist after treatment or recur within two weeks, a urine culture with antimicrobial susceptibility testing is advised. In such cases, it should be assumed that the original treatment was ineffective, and a seven-day course with a different antibiotic may be needed.",
+      "bullets": [
+        "First-line treatment: Nitrofurantoin 100 mg oral twice daily for 3-5 days or 50 mg po QID for 3-5 days. For diabetic patients, a treatment duration of 7 days is suggested. Nitrofurantoin macrocrystal prolonged release 100 mg oral twice daily is the best option considering side-effects, nitrofurantoin monohydrate/macrocrystal 100 mg oral twice daily has more gastro-intestinal side-effects.",
+        "If available: one oral dose of 3 gram fosfomycin (tromethamin) is a very good first-line treatment as well.",
+        "Second-line treatment: Ciprofloxacin 250-500 mg po BID for 3 days or norfloxacin 400 mg po BID for 3 days. Contra-indicated in pregnancy. Be aware of resistance among Gram-negative isolates at KFH. 250 mg po BID is recommended for cystitis, but 250 mg tablets are not always available.",
+        "Third-line treatment: Cefuroxime 250-500 mg po BID for 5 days. If culture confirms susceptibility to 1st or 2nd generation cephalosporins. 250 mg po BID is recommended for cystitis, but 250 mg tablets are not always available.",
+        "Trimethoprim - sulfamethoxazole 160/800 mg po BID for 3 days. Only if culture confirms susceptibility, as there is high resistance (>50%) among E. coli isolates at KFH."
+      ]
+    },
+    {
+      "heading": "Treatment: Cystitis (without systemic symptoms) in men",
+      "body": "Cystitis in men without involvement of the prostate is uncommon and should be classified as a complicated infection[cite: 734, 735]. Therefore, treatment with antimicrobials penetrate the prostate tissue is needed in males with symptoms of UTI. Fluoroquinolones and, to a lesser extent, trimethoprim sulfamethoxazole achieve high concentrations in the prostate. Nitrofurantoin has insufficient tissue penetration in the prostate, but can be sometimes used in case of multidrug-resistant infections.",
+      "bullets": [
+        "First-line treatment: Ciprofloxacin 500 mg po BID for 7 days or levofloxacin 500-750 mg po once a day.",
+        "Trimethoprim - sulfamethoxazole 160/800 mg po BID for 7 days (Only if culture conforms susceptibility)[cite: 740, 741].",
+        "Nitrofurantoin 100 mg po BID for 7 days (If culture conforms susceptibility and if other options are resistant or not available)[cite: 742, 743]."
+      ]
+    },
+    {
+      "heading": "Treatment: Pyelonephritis / Complicated UTI (Oral)",
+      "body": "Patients that can be treated with oral antibiotics include patients with complicated UTI without signs of pyelonephritis or non-pregnant, pre-menopausal women with uncomplicated pyelonephritis, who have no known significant urological abnormalities or comorbidities. In patients with pyelonephritis with vomiting (poor bio-availability of drugs), it is recommended to start with iv-treatment for at least 48 hours until fever and vomiting resolve. Patients with complicated pyelonephritis are in general treated with intravenous antibiotics. Request culture and susceptibility testing before starting antibiotics. Adjust & narrow antibiotics based on sensitivity patterns.",
+      "bullets": [
+        "First-line treatment: Ciprofloxacin 500 mg po BID for 7 days, with or without an initial 400 mg iv dose (For community-acquired pyelonephritis)[cite: 751, 752]. Be aware of high resistance (>30%) of uropathogens to fluoroquinolones. Resistance in community uropathogens is unknown, but will likely exceed 10%. If prevalence of fluoroquinolone resistance is thought to exceed 10%, an initial one-time dose of IV long acting antimicrobial like ceftriaxone 1 g is recommended[cite: 754, 756].",
+        "Second-line treatment: Cefixime 400 mg po OD or 200 mg po BID for 7-10 days.",
+        "Third-line treatment: Levofloxacin 750 mg OD for 5-7 days (Preferably only if other options are exhausted and if the uropathogen cultured is sensitive to levofloxacin)[cite: 760, 761].",
+        "Amoxicillin-clavulanic acid 500/125 mg po TDS or 500/62.5 mg po TDS for 10-14 days. Since beta-lactams are considered less effective in general, consider an initial one-time dose of IV long-acting antibiotics like ceftriaxone 1 gram."
+      ]
+    },
+    {
+      "heading": "Treatment: Complicated UTI/Pyelonephritis / Urosepsis (IV)",
+      "body": "Culture and susceptibility testing before starting antibiotics. Adjust & narrow antibiotics based on sensitivity patterns. Duration could also depend on clinical response: shorter courses are appropriate if patient rapidly improves.",
+      "bullets": [
+        "First-line treatment (Men): Ciprofloxacin 400mg iv BID for 7 days[cite: 770, 771].",
+        "First-line treatment (Women): Cefotaxime 2 gram iv TDS[cite: 772, 773]. If cefotaxime is not available: ceftriaxone 1 gram iv BID (or 2 gram iv OD) for 7-10 days.",
+        "Aminoglycosides as gentamicin 5-6 mg/kg/day in the morning, max 480 mg/day or amikacin 15 mg/kg/day 3-7 days can be added. Not recommended as monotherapy (unless culture based), but given in addition to beta-lactams, including cephalosporins.",
+        "The following drugs are only given after previous antibiotic treatment, documented resistance including ESBL and/or in case of severe sepsis. These drugs are only prescribed for urinary tract infections or pyelonephritis after consultation of infectious diseases or microbiology, preferably guided by cultures: Ceftazidime 2 gram iv TDS for 7-10 days; Cefepime 1-2 gram iv BID for 7-10 days; Piperacillin-tazobactam 3.75 gram QID for 10-14 days[cite: 779, 780, 781].",
+        "If other options are exhausted or if resistant pathogens are suspected or confirmed: Meropenem 1 gram iv TDS for 7-10 days. Combination of a carbapenem and an aminoglycoside is an option in severe cases."
+      ]
+    },
+    {
+      "heading": "Treatment: UTI in pregnancy / breastfeeding",
+      "body": "Cystitis in pregnancy without signs of pyelonephritis: Initiate empirical antibiotics while waiting for urine analysis and culture results, to limit complications in pregnancy. Review the choice of antibiotics when culture and antibiotic sensitivity results are available, and change the antibiotic treatment according to susceptibility results, using a narrow-spectrum antibiotic wherever possible. If previous results are available, choose empiric antibiotics based on previous culture and sensitivity patterns.",
+      "bullets": [
+        "Nitrofurantoin 100 mg po BID 5-7 days (Not in the last 30 days before delivery. Not recommended when breast feeding. Avoid as treatment for pyelonephritis.)[cite: 790, 791, 792, 793].",
+        "Amoxicillin-clavulanate 500/62.5 mg po TDS for 5-7 days.",
+        "Amoxicillin 500 mg po TDS if no previous antibiotic exposure or guided by culture susceptibility results.",
+        "If available: Cephalexin 500 mg po QID for 5-7 days (Not in the last 30 days before delivery.)[cite: 796, 797, 798].",
+        "Fosfomycin 3 gram po STAT (Only in 2nd and 3rd trimester. Not recommended during breastfeeding. Avoid as treatment for pyelonephritis, only in acute cystitis.)[cite: 799, 800, 803, 804].",
+        "Fluoroquinolones are contra-indicated in pregnancy.",
+        "Trimethoprim - sulfamethoxazole is contra-indicated in the 1st and 3rd trimester of pregnancy.",
+        "Pyelonephritis: Pregnant women with acute pyelonephritis need special attention, as this kind of infection may not only have an adverse effect on the mother with anaemia, renal and respiratory insufficiency, but also on the unborn child with more frequent pre-term labour and birth. First choice if no previous culture results available: Ceftriaxone 1 gram iv BID of 2 gram iv OD or cefotaxime 2 gram iv TDS[cite: 809, 810]. Start with intravenous treatment and switch to oral therapy when fever-free. Total treatment 10-14 days. Adjust antibiotics based on culture and susceptibility results.",
+        "Screening for asymptomatic bacteriuria by urine-analysis + urine culture is recommended during the first trimester. Treatment of asymptomatic bacteriuria in pregnant patients is still recommended by most guidelines because of the increased risk of urinary tract infection and its associated sequela, such as pyelonephritis, preterm delivery and low birth weight.",
+        "Pregnant women with recurrent cystitis who have three or more episodes of cystitis or bacteriuria should be started on daily antibiotic prophylaxis for the remainder of pregnancy. Therapeutic options could be: nitrofurantoin 100 mg po daily at night or cephalexin 250-500 mg po daily at night."
+      ]
+    },
+    {
+      "heading": "Treatment: Asymptomatic bacteriuria (ASB)",
+      "body": "Asymptomatic bacteriuria (ASB or ABU) is common and often represents harmless colonization. Studies suggest ABU may protect against other UTIs, so treatment should only occur when proven beneficial to avoid antimicrobial resistance. Screening and treatment are not recommended for most patients, including patients with diabetes, indwelling urethral catheters and renal transplant patient >1 month post-procedure[cite: 822, 823].",
+      "bullets": [
+        "Screening (including culture) and treatment is recommended only in the following scenarios: ",
+        "Pregnant patents, during the first trimester, typically at 12-16 weeks gestation.",
+        "Patients who will undergo endoscopic urologic procedures associated with mucosal trauma. Sometimes in poorly controlled diabetics (limited indications/evidence).",
+        "Renal transplant <1 month post-procedure guided by Nephrology/ Infectious Diseases.",
+        "If eradication is needed, antibiotics should be chosen based on the patient's medical background and antibiotic sensitivity profile, following the same guidelines as for symptomatic UTIs."
+      ]
+    },
+    {
+      "heading": "Treatment: Recurrent uncomplicated UTI",
+      "body": "Antibiotic treatment based on culture and sensitivity testing.",
+      "bullets": [
+        "Behavioural modifications: fluid intake (>2 L per day), habitual and post-coital delayed urination, cleaning after defecation, empty bladder completely.",
+        "There has been weak evidence in favour of usage of cranberry products (e.g. juice or tablets) to prevent recurrent UTIs. Dosage or duration is not known.",
+        "Vitamin C to acidify the urine and prevent UTIs is controversial, but could be justified.",
+        "Probiotics to reduce the risk of recurrent cystitis are not recommended because of lack of demonstrated clinical efficacy, but could be justified given the low risk of drawbacks.",
+        "Peri- or postmenopausal women appear to benefit from estrogen replacement (topically or pessary).",
+        "Methenamine hippurate has been shown to be as effective as antibiotic prophylaxis, without side-effects of antimicrobial resistance. Dosage of methenamine hippurate: 1 gram BID (no catheter) or 1 gram TDS (catheter) for 3-6 months. Contra-indicated in patients with AKI/CKD, abnormalities in urinary tract, gout, hepatic dysfunction.",
+        "If little / no benefit during treatment: determine urine pH. If pH >5.5, give concomitant vitamin C 1000 mg per day[cite: 840, 841].",
+        "Antimicrobial prophylaxis daily or weekly for 3-6 months, or as a single post-coital dose, when behavioural modification and non-antimicrobial measures fail. Prophylactic antibiotic selection should be made based on resistance patterns, side effects, and costs. Various dosages of prophylactic antibiotics have been suggested, but no conclusive evidence supports selection of a particular drug, dosage, or duration or schedule of treatment.",
+        "Continuous antimicrobial prophylaxis could be: Nitrofurantoin 50-100 mg daily at night or 3 times weekly; Trimethoprim 100 mg daily or 3 times weekly; Trimethoprim-sulfamethoxazole 200/40 mg daily[cite: 845, 846, 847]. After 3-6 months, a trial without the medication is warranted.",
+        "Continuous prophylaxis with oral fluoroquinolones (ciprofloxacin) and cephalosporins in general not recommended, except for cephalexin 125 or 250 mg once daily according to certain guidelines."
+      ]
+    },
+    {
+      "heading": "Treatment: Catheter-associated UTI",
+      "body": "Indwelling urinary catheters become colonized easily, the incidence of bacteriuria is 3-7% per day. Nearly 100% of patients with urinary catheters will have bacteriuria after one month. Catheter-associated UTI is defined by the presence of both symptoms and a positive urine culture.",
+      "bullets": [
+        "Symptoms in ICU patients might present as clinical worsening of fever, altered mental status, lethargy with no other identified cause, costovertebral angle tenderness, new onset haematuria or pelvic/suprapubic discomfort.",
+        "If the indwelling catheter has been in place for > 1 week at the onset of the UTI and is still indicated, replace the catheter and obtain urine culture from new urinary catheter.",
+        "If urinary catheter is no longer indicated, remove catheter and obtain culture from a voided midstream urine specimen.",
+        "A silicone bladder catheter is recommended in prolonged catheterization. See also the KFH Infection Prevention and Control Guideline on 'Prevention of Catheter-Associated Urinary Tract Infections (CAUTI)'."
+      ]
+    },
+    {
+      "heading": "Treatment: UTI in kidney transplant recipients",
+      "bullets": [
+        "For kidney transplant patients, the screening and treatment of ASB is only recommended in the first month after transplantation.",
+        "Trimethoprim/sulfamethoxazole (TMP/SMX, cotrimoxazole 160-800mg) antibiotic prophylaxis is given during the first 3-6 months post-transplant and significantly decreases asymptomatic & symptomatic UTI, and bacteremia in renal transplant recipients.",
+        "If TMP-SMX cannot be used for primary prophylaxis of UTI after renal transplant, alternative agents with limited data include nitrofurantoin (avoid if GFR <60 mL/min), cephalexin, or fluoroquinolones.",
+        "For simple cystitis in renal allograft recipients, it is reasonable to limit therapy to 5-10 days. Single-dose or three-day treatment courses are not recommended.",
+        "For pyelonephritis/complicated UTI in renal allograft recipients, an antibiotic with narrow-spectrum should be used to complete 14-21 days of therapy based on susceptibility data."
+      ]
+    },
+    {
+      "heading": "Treatment: Candida in urine",
+      "body": "Candida species found in the urine indicates often contamination or colonization, and sometimes UTI or even candidemia. In patients with prolonged ICU stay: >80% colonization, <10% candidemia.",
+      "bullets": [
+        "When Candida species are detected in a urine sample and patient has an indwelling bladder catheter, remove or change the bladder catheter.",
+        "Treatment with antifungal agents is in general not recommended, except when there are signs of candidemia or if the patient belongs to a group at high risk for dissemination such as neutropenia or recent / upcoming urological procedures.",
+        "Candida colonization index can also be used in the decision to start treatment, especially in critical patients. The candida colonization index is defined as the ratio of the number of distinct non-blood body sites colonized by Candida to the total number of body sites culture. Patients with a colonization index ≥0.5 are considered heavily colonized and can be treated.",
+        "Treatment of choice is fluconazole 200-400 mg daily for 7-21 days based on underlying condition and response."
+      ]
+    },
+    {
+      "heading": "Treatment: Multidrug-resistant pathogens",
+      "body": "All treatment according to antibiotic susceptibility profile, clinical picture and urinary penetration of antibiotic.",
+      "bullets": [
+        "ESBL-producing Enterobacterales. Most commonly detected in King Faisal Hospital: E. coli, Klebsiella species, Citrobacter freundii. Treatment based on severity of disease and resistance profile. Fluoroquinolones can be used sometimes, although cross-resistance with fluoroquinolones exists. Nitrofurantoin and fosfomycin are other oral options. Intravenous options should be based on sensitivity profile and urinary penetration of the drug.",
+        "Pseudomonas aeruginosa. Most isolates in Rwanda are sensitive to ceftazidime, cefepime, piperacillin-tazobactam, fluoroquinolones and carbapenems. Treatment based on culture and sensitivity profile. If multidrug resistant Pseudomonas aeruginosa: carbapenem (imipenem or meropenem) and consider additional coverage with fluoroquinolones. Carbapenem-resistant Pseudomonas auruginosa can be treated with ceftazidime-avibactam.",
+        "Carbapenem-resistant Acinetobacter baumanni can be treated ampicillin-sulbactam (first choice), polymyxin B or colistin.",
+        "Enterococcus species: intrinsic resistant to several antibiotics including cephalosporins and carbapenems. Oral agents are amoxicillin, nitrofurantoin, levofloxacin, fosfomycin and linezolid. Intravenous agents that can be used are ampicillin (if sensitive), vancomycin or daptomycin."
+      ]
+    },
+    {
+      "heading": "Special Considerations",
+      "bullets": [
+        "Apply contact-based precautions to all admitted patients with multi-drug resistant urinary pathogens.",
+        "Follow instructions from the King Faisal Hospital Rwanda Infection Prevention and Control Guideline on 'Prevention of Catheter-Associated Urinary Tract Infections (CAUTI)'."
+      ]
+    }
+  ]
+}

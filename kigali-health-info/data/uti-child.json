@@ -1,0 +1,245 @@
+{
+  "id": "uti-child",
+  "title": "UTI (Child)",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Urinary tract infections (UTIs) are among the most frequent bacterial infections in pediatric population. The exact prevalence of UTIs in unknown, particularly in Rwanda. In febrile infants and young children, the prevalence is estimated to be 7%; and 30% of infants and children experience recurrent infections during the first 6-12 months after an initial UTI. UTIs cause short-term morbidity such as fever, dysuria, and flank pain, but may also lead to long-term renal complications, such as permanent kidney scarring."
+    },
+    {
+      "heading": "Purpose",
+      "body": "To ensure uniform global management (all aspects of care) of children with UTIs by all healthcare providers, doctors and nurses working both in the ambulatory and inpatients care areas."
+    },
+    {
+      "heading": "Aim",
+      "body": "To provide recommendations based on best available evidence and ensure the care provided is safe and standardized to guarantee the most favorable outcomes. In addition to this, to support antimicrobial stewardship and encourage appropriate antibiotic prescribing."
+    },
+    {
+      "heading": "Rationale",
+      "body": "To improve the care and outcome of children with UTIs by providing guidance to the identified clinicians and caregivers."
+    },
+    {
+      "heading": "Scope of guideline",
+      "body": "This guideline is made for all healthcare providers, doctors and nurses who are involved in the care of children with signs and symptoms of UTI in A&E, OPD, ICU, Pediatric Ward, NICU, and Urusaro Ward. Both in outpatients and admitted children: neonates, infants and children until 15 years of age."
+    },
+    {
+      "heading": "Competencies required",
+      "body": "All healthcare providers including doctors, nurses and other supporting staff should know about the existence of the guideline and be able to apply and use both general and other specific recommendations."
+    },
+    {
+      "heading": "Definition of key terms",
+      "bullets": [
+        "UTI (Urinary Tract Infection) is significant bacteriuria of a clinically relevant uropathogen plus the presence of age-specific symptoms. In daily practice, the presence of symptoms plus more than >10 white blood cells / high powerfield in 'clean-catch' or catheterized urine is used as definition of UTI.",
+        "Uncomplicated UTI (Cystitis), which is the inflammation and infection of the bladder and urethra. Acute cystitis affects mainly girls from 2 years of age and above, without associated urological anomalies.",
+        "Complicated UTI: UTI in children with abdominal and/or bladder mass, kidney and urinary tract anomalies; urosepsis; atypical clinical course, including absence of clinical response to antibiotic within 72 h; and renal abscess.",
+        "Febrile UTI: UTI associated with a temperature of >38°C (100.4°F).",
+        "Symptomatic UTI: UTI associated with fever and/or urinary symptoms.",
+        "Upper UTI: UTI involving kidneys and ureters.",
+        "Lower UTI: UTI involving bladder and urethra but not upper urinary tract.",
+        "Asymptomatic bacteriuria (ABU): Colonization of the bladder in the absence of an inflammatory reaction. More common in girls than boys.",
+        "Sterile pyuria: Increased white cells in urine in the absence of bacteria on urine culture.",
+        "Bowel and Bladder Dysfunction (BBD): Spectrum of signs and symptoms, including incontinence, constipation and/or encopresis associated with functional and behavioral abnormalities of the bowel, lower urinary tract, and pelvic floor.",
+        "Acute pyelonephritis (APN): Kidney infection (febrile UTI may or may not be due to pyelonephritis).",
+        "Cystitis: Bladder infection.",
+        "Complicated cystitis: Children with comorbid medical conditions, underlying bladder pathology, indwelling bladder catheter, and atypical clinical course.",
+        "Recurrent UTI: recurrent UTI can be classified into unresolved, persistent, and re-infection. When initial treatment fails to eliminate the bacteria / infection, it is called unresolved. Persistent infection is a re-emergence of the same bacteria, usually from a site within the urinary tract that cannot be eradicated (e.g. stones, non-functioning renal segments). During re-infection, each episode can be caused by a variety of new organisms, in contrast to persistent UTI.",
+        "Reflux nephropathy: Renal cortical abnormalities associated with VUR (may be congenital dysplasia or acquired scarring).",
+        "Renal scarring: Acquired renal damage due to acute pyelonephritis.",
+        "Renal dysplasia: Congenital renal cortical abnormalities."
+      ]
+    },
+    {
+      "heading": "Etiology",
+      "body": "The urinary tract is normally sterile, except for the distal part of the urethra. Physiologically, the periurethral area has bowel bacteria. Whereas Escherichia coli (E. coli) predominates, Proteus mirabilis is also found in boys after the first 6 months of life. In older children, the periurethral flora changes and bowel bacteria are not as prominent as in younger children. Colonization of the periurethral area with Gram-negative bacteria is often a precursor to UTI occurrence. Community-acquired acute pyelonephritis episodes are caused by E. coli in 80-90% of cases, especially in children. Other, less common, uropathogenic bacteria include Proteus species, Klebsiella species and Staphylococcus saprophyticus. Occasionally, the prescription of broad-spectrum antibiotics for other infections may produce changes in the normal flora."
+    },
+    {
+      "heading": "Epidemiology",
+      "body": "Prevalence rates of UTI vary by gender, age, race, and circumcision status. The incidence of UTI peaks during infancy for females and males, around the time of toilet training, and at the beginning of sexual activity in girls. Approximately 7% of infants with a fever may have an underlying UTI as the cause. In the pediatric population, females younger than 1 year of age and uncircumcised male infants younger than 3 months of age have the highest prevalence of UTI. The prevalence of UTI in male infants is affected by circumcision status. Uncircumcised male infants with fever have a four- to eightfold higher prevalence of UTI than their circumcised male counterparts."
+    },
+    {
+      "heading": "Pathogenesis",
+      "body": "UTIs generally occur via the ascendant route, especially after the neonatal period. However, in newborns (the first 12 weeks of life), UTIs spread primarily through the hematogenic route. In newborns, UTI may manifest as sepsis, largely with nonspecific clinical features, including anorexia, vomiting, poor sucking, irritability, lethargy, convulsions, pallor, hypothermia and occasionally with jaundice. Urinary tract infections in neonates are associated with a high probability of bacteremia (6-10%) as well as a high mortality rate up to 10% due to the hematogenic spread of infection to other sites, especially central nervous system causing meningitis. The ascendant route is comprised of bacterial migration, fixation, and proliferation of uropathogenic bacteria in the urinary tract. Uropathogenic bacteria commonly spread via this route usually reside in the gastrointestinal tract before being spread via the perineum to the periurethral area. They then ascend the urinary tract against urine flow, and establish infection by means of several mechanisms. The main mechanisms include fimbriae that promote adhesion to urothelial cells, flagella mediated motility, resistance to antibacterial defenses, and other adaptation strategies."
+    },
+    {
+      "heading": "Diagnosis",
+      "body": "The clinical presentation of UTIs in children is highly heterogeneous. Signs and symptoms are related to the age of the child and often non-specific. Consequently, many UTIs are likely either not diagnosed or diagnosed late, especially in young children. It is therefore paramount that the pediatrician and other primary health care providers have a high index of suspicion for UTIs in children. A targeted history and physical examination and positive urinary findings are essential for an accurate diagnosis of UTI. History and physical examination in older, verbal children, important findings are shown below. In contrast, signs and symptoms of UTI in infancy are nonspecific, and fever may be the only symptom, although neonates may present with hypothermia. Urine collection method has a profound significance for diagnosis of UTI, especially in non-toilet trained children."
+    },
+    {
+      "heading": "Clinical features: Neonates, infants and young children",
+      "bullets": [
+        "Nonspecific symptoms: Failure to thrive, Lethargy, Irritability, poor oral intake, Vomiting, Loose stools, Jaundice, Altered general condition & altered conscious state, Lower abdominal tenderness on palpation.",
+        "NB: The absence of fever does not rule out the diagnosis of UTI.",
+        "Fever with no obvious cause - may be the only manifestation of UTI."
+      ]
+    },
+    {
+      "heading": "Clinical features: Older children",
+      "bullets": [
+        "Signs of cystitis (burning pain on urination and urinary urgency and frequency).",
+        "Fever >38°C.",
+        "Flank pain and/or lower abdominal tenderness.",
+        "Nausea and/or vomiting are common.",
+        "Colour and odour of the urine (usually cloudy/turbid/smelly)."
+      ]
+    },
+    {
+      "heading": "Specimen collection",
+      "body": "Contaminated samples can influence the reliability of the analysis. Therefore, ask parents or caregiver to have the sample container ready before removing the child's diaper or underwear, clean the skin around the genital area with water and soap or cleaning wipes, and watch until the child passes urine. The sample can be collected while the child is passing urine (midstream urine) and contact with the skin should be avoided as much as possible. This clean-catch method can also be used in non-toiled trained children, although there is a risk of contamination. Other methods for collecting specimen in non-toilet trained children include using a plastic bag or urine collector, ureteral catheterization or suprapubic bladder aspiration.",
+      "bullets": [
+        "A plastic bag or urine collector attached to the cleaned genitalia has more than 50% risk of contamination, but is non-invasive and very helpful to rule out a UTI when results are negative.",
+        "Transurethral bladder catheterization is a fast and safe way to obtain a reliable urine sample, especially for culture, with a contamination rate of about 10%. This method can be used if a 'clean-catch' sample or a sample collected by plastic bag suggests UTI.",
+        "Suprapubic bladder aspiration is the most invasive method to obtain urine samples and has the lowest contamination rate, if performed in a sterile way."
+      ]
+    },
+    {
+      "heading": "Investigations",
+      "bullets": [
+        "Urine dipstick test alone can be the first step (except for neonates): Check for nitrites and leucocytes (esterase), positive nitrites on dipstick indicates the presence of Enterobacterales (such as E. coli, Klebsiella species or Proteus species) while leukocyte esterase indicate an inflammation in the urinary tract. Positive nitrite and/or leukocyte esterase indicate that UTI is likely, but a dipstick negative for nitrites and leukocytes does not exclude urinary tract infection.",
+        "Culture should be sent for all neonates as dipstick alone is not sensitive enough, especially for premature infants, and is not recommended as stand-alone diagnostic for infants under 90 days of age.",
+        "When urinalysis is requested, this usually includes both microscopy and dipstick. Microscopy will provide the following information: White Blood Cells (WBC): >5 cells per high power field (hpf) in centrifuged urine is considered pyuria, although in children, >10 cells per high power field is typically used as the threshold for treatment consideration.",
+        "Epithelial cells: fewer than 20 squamous epithelial cells per high power field is normal. Many epithelial cells indicates contamination of the urine.",
+        "Other cells like red blood cells, casts or crystals can indicate underlying kidney problems, although red blood cells can also be found in urinary tract infections.",
+        "Yeast cells are not commonly seen in children. They might be considered as true pathogens in neonates, children with recent urogenital procedures, indwelling urinary catheters or underlying immunosuppressing conditions.",
+        "Urine culture: When a dipstick analysis and / or microscopy is suggestive of urinary tract infection, carry out urine culture in order to identify the causative pathogen and antibiotic susceptibility.",
+        "Some guidelines recommend urine cultures for all children under 2 years old suspected of having a UTI, regardless of microscopy and dipstick results. At King Faisal Hospital, urine culture is routinely done for all children when a complete urinalysis is requested.",
+        "Urine cultures from 'clean-catch' urine samples with 10^5 CFU/ml are considered to be positive for UTI. For catheter samples: 10^4 CFU/ml.",
+        "Urine sample for culture and sensitivity should be collected before initiating empiric therapy, unless it delays the start of therapy significantly, as early initiation of antimicrobial therapy (24-48hrs) reduces the risk of kidney scarring.",
+        "Prompt treatment is essential especially for children who present with one or more of the following: fever (especially ≥39°C for >48 hours), sign of sepsis, costovertebral angle tenderness, known immune deficiency or known urologic abnormality (eg, Grade IV or V vesicoureteral reflux).",
+        "Additional investigations in case of suspected pyelonephritis: Full Blood count, C-reactive protein and procalcitonin, Blood urea and creatinine levels.",
+        "Renal and bladder ultrasound where possible if: Children < 2 years of age with a first febrile UTI. Children of any age with two or more febrile UTIs per year. Children of any age with a UTI who have a family history of renal or urologic disease, poor growth, or hypertension. Children who do not appropriately respond to conventional antimicrobial therapy."
+      ]
+    },
+    {
+      "heading": "Risk factors for urinary tract infection in children",
+      "bullets": [
+        "Congenital Anomalies of the Kidneys and Urinary Tract (CAKUT), for example high-grade vesicoureteral reflux (VUR).",
+        "Bowel and bladder dysfunction (BBD): important risk factor that has to be assessed in all children with UTI.",
+        "Gender (female sex).",
+        "Spinal dysraphism with neurogenic bladder.",
+        "Immunocompromised children, including newborns and premature neonates.",
+        "Indwelling catheter.",
+        "Uncircumcised boys (4-8 times higher risk compared to circumcised boys).",
+        "Age (girls younger than 4 years and boys younger than 1 year).",
+        "Sexual activity and pregnancy in older children.",
+        "Previous history of UTIs.",
+        "White race.",
+        "The presence of kidney stones.",
+        "Use of prior antibiotics.",
+        "Obesity.",
+        "Antenatal hydronephrosis.",
+        "Diabetes."
+      ]
+    },
+    {
+      "heading": "Decision to hospitalize",
+      "bullets": [
+        "Most patients can be treated as outpatient if: The child has a non-toxic appearance, There are no signs of urosepsis, Tolerates oral medications, The family complies with recommendations.",
+        "Admission for parenteral antibiotherapy if: Severely and acutely ill child, Children who cannot tolerate oral therapy, Adherence with the prescribed regimen is in question, Dehydrated and unable to retain oral intake, Failure to respond to oral therapy.",
+        "Renal or perinephric abscess should also be treated initially with parenteral therapy and surgical drainage should be considered.",
+        "Immunocompromised.",
+        "Infants aged 3 months or less due to the risk of urosepsis and the higher possibility of structural urinary tract anomaly."
+      ]
+    },
+    {
+      "heading": "Treatment - Aims of management",
+      "bullets": [
+        "Resolution of the acute symptoms of the infection; Prompt recognition of concomitant bacteremia, particularly in infants less than 2 months of age.",
+        "Prevention of renal damage by eradication of the bacterial pathogen.",
+        "Identification of abnormalities of the urinary tract, and avoidance of recurrent infections.",
+        "NB: Delay in treatment of febrile UTI is associated with permanent renal scarring."
+      ]
+    },
+    {
+      "heading": "Treatment - Clinical management",
+      "body": "The clinical management of UTIs in children depends on the age of the patient, severity of presentation, and location of the infection (cystitis vs pyelonephritis). NB: The antibiotic treatment is the mainstay of treatment for acute UTI and the decision to initiate empiric treatment should be based on clinical suspicion of UTI that includes well taken suggestive history & physical examination findings plus positive urinalysis in an appropriately collected urine specimen."
+    },
+    {
+      "heading": "Antibiotics - Principles",
+      "bullets": [
+        "Recent antibiotic exposure influencing choice of antibiotics: Children on antibiotic prophylaxis possible resistance to the prophylactic antibiotic. Children treated with antibiotics within the last 2 months may require a different antibiotic.",
+        "Knowledge of local antimicrobial resistance patterns of uropathogens: Resistance patterns are not known for the pediatric population at King Faisal Hospital.",
+        "We know that E. coli isolates among all patients of King Faisal Hospital have a high susceptibility rate (>90%) to nitrofurantoin, acceptable susceptibility rate (50-70%) to cephalosporins and fluoroquinolones, while susceptibility for trimethoprim-sulfamethoxazole is low (<30%), sensitivity pattern in 2025."
+      ]
+    },
+    {
+      "heading": "Antibiotics - Oral treatment",
+      "bullets": [
+        "First-generation cephalosporins can be used as the first-line oral agent in the treatment of afebrile UTI in children, although local susceptibility data are unknown. They generally have a better bioavailability, similar susceptibility profiles compared to third-generation cephalosporins.",
+        "Cephalexin 50 mg/kg per day PO in three to four divided doses (maximum: 2 g/day). Duration of treatment should be 3-5 days for a first episode of an afebrile UTI.",
+        "Third-generation cephalosporins as cefixime (8 mg/kg/day in one dose) or cefpodoxime (8-10 mg/kg/day in two doses) can be good alternatives in our setting, but are not effective in treatment of Staphylococcus saprophyticus or Enterococci. Duration 3-5 days in afebrile UTI (non-recurrent).",
+        "Nitrofurantoin 5-7 mg/kg per day PO divided every 6 hours (max 100 mg every 6 hours) for 3-5 days.",
+        "Alternative options for outpatients include: Amoxicillin-clavulanate 40-50 mg/kg per day PO (dosed by the amoxicillin component) in two or three divided doses (maximum 500 mg/dose) for 3-5 days.",
+        "Fluoroquinolones as ciprofloxacin and norfloxacin are not included in the first-line treatment of UTIs in children, but are approved by several guidelines for treatment of (complicated) UTIs, or can be prescribed if there are no alternatives based on urine culture.",
+        "Trimethoprim-sulfamethoxazole (TMP-SMX) 8-12 mg/kg per day PO in two divided doses (maximum 60 to 100 mg every 6 hours), only if culture confirms susceptibility.",
+        "For recurrent UTI's or UTI's in patients with risk factors for complicated UTI: adjust started treatment based on results of urine culture and antibiotic sensitivity profile."
+      ]
+    },
+    {
+      "heading": "Antibiotics - Intravenous treatment",
+      "bullets": [
+        "Ceftriaxone 50-100 mg/kg once daily (or 25-50 mg/kg twice daily) or cefotaxime 100-200 mg/kg intravenous divided in three doses is the first choice in King Faisal Hospital Rwanda. Ceftriaxone and cefotaxime have a similar spectrum and cover most pathogens that cause UTI.",
+        "Amoxicillin-clavulanate 60-100 mg/kg intravenous divided in three doses. Local resistance in children is unknown.",
+        "First-generation parenteral cephalosporin could be a first-line treatment of febrile UTI. Dose: cefazolin 50 mg/kg per day IV divided every eight hours (maximum: 3 g/day). Could be considered in children without prior antibiotics exposure.",
+        "Alternative options (in case of penicillin or cephalosporin allergy): Aminoglycosides such as gentamicin IV (5-7.5 mg/kg once daily) or amikacin IV (20-30 mg/kg once daily) for 5-7 days. Hydration status and kidney function should be assessed and monitored in patients on aminoglycosides. If available, serum levels have to be monitored, and dosage adjusted on serum levels.",
+        "Fluoroquinolones such as ciprofloxacin are effective in UTIs, and are approved in several countries as second- or third-line options for complicated UTIs or pyelonephritis.",
+        "Alternative options (in case of previous antibiotic exposure or suspected/confirmed multidrug resistance): Ceftazidime 100-150 mg/kg/day intravenous divided in three doses. Piperacillin-tazobactam 320/40 mg/kg/day intravenous divided in three to four doses. Meropenem 60 mg/kg/day intravenous divided in three doses.",
+        "Duration of treatment: recommendations vary, but generally suggest 5 days for uncomplicated UTI or cystitis, and 7-10 days for complicated UTI or acute pyelonephritis, with the option to extend to 14 days in specific circumstances.",
+        "If the patient clinically improves during treatment, is tolerating oral fluids, and has been afebrile for 24 hours, treatment can be switched from intravenous to oral.",
+        "Antibiotics choice should be adjusted based on culture results in consultation with pediatrician and microbiologist."
+      ]
+    },
+    {
+      "heading": "Antibiotics based on age, site and severity",
+      "bullets": [
+        "UTI in neonates (0 to 7 days, <2 kg): IV Ampicillin (slowly) 50 mg/kg every 12 hours PLUS IV Gentamicin (slowly) 5 mg/kg once every 36-48 hours OR IV Cefotaxime (slowly) 50 mg/kg every 12 hours. Duration: 7-10 days.",
+        "UTI in neonates (0 to 7 days, ≥ 2 kg): IV Ampicillin (slowly) 50 mg/kg every 8 hours PLUS IV Gentamicin (slowly) 3-5 mg/kg once daily OR IV Cefotaxime (slowly) 50 mg/kg every 8 hours. Duration: 7-10 days.",
+        "UTI in neonates (8 days to < 1 month, Prematures < 2 kg): IV Ampicillin (slowly) 50 mg/kg every 8 hours PLUS IV Gentamicin (slowly) 4-5 mg/kg once daily OR IV Cefotaxime (slowly) 50 mg/kg every 8 hours. Duration: 7-10 days.",
+        "UTI in neonates (8 days to < 1 month, ≥ 2 kg): IV Ampicillin (slowly) 50 mg/kg every 8 hours PLUS IV Gentamicin (slowly) 5 mg/kg once daily OR IV Cefotaxime (slowly) 50 mg/kg every 8 hours. Duration: 7-10 days. (Discuss dosage and duration with neonatologist. Gentamicin dosing should be based on serum levels).",
+        "Cystitis or febrile UTI (oral treatment): Amoxicillin/Clavulanic acid PO 25 mg/kg 2 times daily (Duration: 3-5 days, sometimes extended to 7 days, for cystitis or uncomplicated UTI. 5-7 days for febrile UTI) OR Nitrofurantoin PO 5-7 mg/kg per day in 4 divided doses (every 6 hours) OR Cephalexin 50 mg/kg per day PO in 3-4 divided doses OR Cefixime PO 8 mg/kg once daily for 3 days.",
+        "Febrile UTI / Pyelonephritis (intravenous treatment): IV Ceftriaxone 50-100 mg/kg once daily OR IV Cefotaxime 100-200mg/kg OR IV Amoxicillin/clavulanate 60-100 mg/kg. When improvement > switch to oral medication. Total duration of 7-10 days.",
+        "Pyelonephritis with signs of sepsis: One of the intravenous medications recommended above (ceftriaxone, cefotaxime, amoxicillin/clavulanate) PLUS Gentamicin IM/IV: 5 mg/kg STAT OR 5-7.5 mg/kg once daily for 3 days. Total duration of 7-14 days."
+      ]
+    },
+    {
+      "heading": "Indications for referral to a pediatric nephrologist or urologist",
+      "bullets": [
+        "Recurrent UTI (urologist).",
+        "Newborns having a UTI (urologist).",
+        "All patients with ultrasound abnormalities, including dilating vesicoureteral reflux (Grades III to V) or any other congenital kidney abnormality (urologist).",
+        "Urinary tract abnormalities found during prenatal ultrasound (urologist).",
+        "Impaired kidney function (nephrologist).",
+        "Elevated blood pressure (nephrologist).",
+        "Bowel and bladder dysfunction refractory to primary care measures (urologist)."
+      ]
+    },
+    {
+      "heading": "Prevention of recurrent UTI",
+      "bullets": [
+        "Avoid urine withholding behavior in toilet-trained children.",
+        "Increase oral fluid intake, although there is limited evidence that it is effective in preventing UTIs.",
+        "Prevent and treat constipation.",
+        "Gentile, daily retraction and cleaning should be performed in uncircumcised boys with phimosis.",
+        "Circumcision may be necessary to prevent UTI recurrence.",
+        "Antimicrobial prophylaxis might be indicated when there are frequent recurrent UTIs (3 per 6 months or 4 per 12 months). Prophylaxis may also be indicated in certain conditions such as hydronephrosis, in consultation with a (pediatric) urologist.",
+        "Recommended antibiotics as prophylaxis are trimethoprim-sulfamethoxazole daily or nitrofurantoin daily for 6 months.",
+        "Cranberry juice or tablets can reduce the incidence of recurrent UTI.",
+        "There is no clear evidence that probiotics are beneficial for the prevention of recurrent UTI.",
+        "Address the underlying congenital kidney and urinary tract anomalies, if present."
+      ]
+    },
+    {
+      "heading": "Complications (acute and long term) and prognosis",
+      "bullets": [
+        "Acute: Dehydration and electrolyte derangements; Acute kidney injury (AKI): a rapid decline in glomerular filtration rate and retention of fluid and nitrogenous waste products; Febrile seizures; Pyelonephritis; Sepsis; Meningitis (neonates).",
+        "Long term: Renal abscesses; Renal scarring; Hypertension.",
+        "The majority of children with UTI have no long-term sequelae. Most children without underlying diseases or anomalies will have a little risk of recurrence.",
+        "Recurrent UTI is a risk factor for kidney scarring, and the risk of kidney scarring is substantially increased with the second febrile UTI.",
+        "Prediction of long-term sequelae in children with UTI remains difficult."
+      ]
+    },
+    {
+      "heading": "Follow-up",
+      "body": "Children who have been treated for a febrile UTI, those with underlying risk factors and those with complications should be instructed to seek prompt reevaluation for subsequent febrile illnesses to ensure prompt recognition and treatment of recurrent UTI. The evaluation of these episodes should include urinalysis and urine culture."
+    }
+  ]
+}
