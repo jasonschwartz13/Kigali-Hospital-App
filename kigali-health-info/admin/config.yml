@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: jasonschwartz13/Kigali-Hospital-App
-  branch: main 
+  name: git-gateway
+  branch: main
 
 media_folder: "assets/images" # where it should save images if they upload any
 public_folder: "/images"
