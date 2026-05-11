@@ -9,7 +9,7 @@ public_folder: "/images"
 collections:
   - name: "guidelines"
     label: "Clinical Guidelines"
-    folder: "data"
+    folder: "kigali-health-info/data"
     create: true # allows doctors to create brand new guidelines
     extension: "json"
     format: "json"
