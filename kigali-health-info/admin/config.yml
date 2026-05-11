@@ -14,8 +14,8 @@ collections:
     extension: "json"
     format: "json"
     fields:
-      - { label: "Guideline ID", name: "id", widget: "string" }
-      - { label: "Disease Title", name: "title", widget: "string" }
+      - { label: "Guideline ID (the file name, i.e. 'uti-adult')", name: "id", widget: "string" }
+      - { label: "Disease Title (what will appear on app, i.e. 'UTI (Adult)')", name: "title", widget: "string" }
       
       # here is where we build the repeatable sections
       - label: "Sections"

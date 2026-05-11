@@ -1,19 +1,17 @@
 import React, { useState } from "react"; 
 import { View, Text, Pressable, StyleSheet, ScrollView, TextInput } from "react-native";
-import { router } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import { Ionicons } from '@expo/vector-icons';
 import { useFavorites } from "../context/FavoritesContext"; 
-import capData from "../../data/community-acquired-pneumonia.json";
+import { guidelinesList } from "../../data/index.js";
 
 const CollapsibleSection = ({ section, searchQuery }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const highlightText = (text) => {
     if (!searchQuery.trim() || !text) return text;
-
     const regex = new RegExp(`(${searchQuery})`, 'gi');
     const parts = text.split(regex);
-
     return parts.map((part, index) => 
       part.toLowerCase() === searchQuery.toLowerCase() ? (
         <Text key={index} style={styles.highlightedText}>{part}</Text>
@@ -25,25 +23,14 @@ const CollapsibleSection = ({ section, searchQuery }) => {
 
   return (
     <View style={styles.sectionContainer}>
-      <Pressable 
-        style={styles.sectionBanner} 
-        onPress={() => setIsExpanded(!isExpanded)}
-      >
+      <Pressable style={styles.sectionBanner} onPress={() => setIsExpanded(!isExpanded)}>
         <Text style={styles.sectionBannerText}>{highlightText(section.heading)}</Text>
-        <Ionicons 
-          name={isExpanded ? "chevron-up" : "chevron-down"} 
-          size={24} 
-          color="#fff" 
-        />
+        <Ionicons name={isExpanded ? "chevron-up" : "chevron-down"} size={24} color="#fff" />
       </Pressable>
 
       {isExpanded && (
         <View style={styles.contentArea}>
-          
-          {section.body && (
-            <Text style={styles.bodyText}>{highlightText(section.body)}</Text>
-          )}
-
+          {section.body && <Text style={styles.bodyText}>{highlightText(section.body)}</Text>}
           {section.bullets && (
             <View style={styles.bulletContainer}>
               {section.bullets.map((bullet, bulletIndex) => (
@@ -54,33 +41,44 @@ const CollapsibleSection = ({ section, searchQuery }) => {
               ))}
             </View>
           )}
-          
         </View>
       )}
     </View>
   );
 };
 
-export default function CommunityAcquiredPneumoniaScreen() {
-  const { toggleFavorite, isFavorite } = useFavorites();
+export default function GuidelineTemplateScreen() {
+  // get the ID from the URL (e.g., "uti-adult" or "cap")
+  const { id } = useLocalSearchParams();
   
-  // 2. USE THE JSON TITLE FOR FAVORITES
-  const pageInfo = { route: "/guidelines/community-acquired-pneumonia", name: capData.title };
-  const isFav = isFavorite(pageInfo.route);
+  // find the correct guideline data from our master list
+  const activeData = guidelinesList.find(g => g.id === id);
 
+  const { toggleFavorite, isFavorite } = useFavorites();
   const [searchQuery, setSearchQuery] = useState("");
 
-  // 3. FILTER THE CAP DATA
-  const filteredSections = capData.sections.filter((section) => {
-    if (searchQuery.trim() === "") return true;
+  // if the URL ID doesn't match any JSON files, show an error
+  if (!activeData) {
+    return (
+      <View style={[styles.container, { justifyContent: 'center', alignItems: 'center' }]}>
+        <Text style={styles.title}>Guideline not found!</Text>
+        <Pressable onPress={() => router.back()} style={{ marginTop: 20 }}>
+          <Text style={{ color: "#007AFF", fontSize: 18 }}>Go Back</Text>
+        </Pressable>
+      </View>
+    );
+  }
 
+  // setup favorites and search filtering using the activeData
+  const pageInfo = { route: `/guidelines/${activeData.id}`, name: activeData.title };
+  const isFav = isFavorite(pageInfo.route);
+
+  const filteredSections = activeData.sections.filter((section) => {
+    if (searchQuery.trim() === "") return true;
     const lowerCaseQuery = searchQuery.toLowerCase();
     const matchesHeading = section.heading.toLowerCase().includes(lowerCaseQuery);
     const matchesBody = section.body ? section.body.toLowerCase().includes(lowerCaseQuery) : false;
-    const matchesBullets = section.bullets 
-      ? section.bullets.some(bullet => bullet.toLowerCase().includes(lowerCaseQuery)) 
-      : false;
-
+    const matchesBullets = section.bullets ? section.bullets.some(bullet => bullet.toLowerCase().includes(lowerCaseQuery)) : false;
     return matchesHeading || matchesBody || matchesBullets;
   });
 
@@ -91,13 +89,9 @@ export default function CommunityAcquiredPneumoniaScreen() {
       </Pressable>
 
       <View style={styles.headerContainer}>
-        <Text style={styles.title}>{capData.title}</Text>
+        <Text style={styles.title}>{activeData.title}</Text>
         <Pressable onPress={() => toggleFavorite(pageInfo)}>
-          <Ionicons 
-            name={isFav ? "star" : "star-outline"} 
-            size={32} 
-            color={isFav ? "#FFD700" : "#ccc"} 
-          />
+          <Ionicons name={isFav ? "star" : "star-outline"} size={32} color={isFav ? "#FFD700" : "#ccc"} />
         </Pressable>
       </View>
 
@@ -114,32 +108,26 @@ export default function CommunityAcquiredPneumoniaScreen() {
       </View>
       
       <ScrollView style={styles.scrollArea} showsVerticalScrollIndicator={false}>
-        
         {filteredSections.length > 0 ? (
           filteredSections.map((section, index) => (
-            <CollapsibleSection 
-              key={index} 
-              section={section} 
-              searchQuery={searchQuery}
-            />
+            <CollapsibleSection key={index} section={section} searchQuery={searchQuery} />
           ))
         ) : (
           <Text style={styles.noResultsText}>No sections match your search.</Text>
         )}
-
         <View style={{ height: 40 }} />
-        
       </ScrollView>
     </View>
   );
 }
 
+// styles
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#fff", paddingTop: 60 },
   backButton: { position: "absolute", top: 50, left: 20, zIndex: 10, padding: 8 },
   backArrow: { fontSize: 28, fontWeight: "bold", color: "#007AFF" },
   headerContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 10, marginBottom: 15, gap: 10, paddingHorizontal: 40 },
-  title: { fontSize: 24, fontWeight: "bold", textAlign: 'center' }, // Slightly smaller font to fit "Community Acquired Pneumonia"
+  title: { fontSize: 24, fontWeight: "bold", textAlign: 'center' },
   highlightedText: { fontWeight: 'bold', backgroundColor: '#fff3cd', color: '#000' },
   searchContainer: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#f2f2f2', marginHorizontal: 20, marginBottom: 15, borderRadius: 10, paddingHorizontal: 10, height: 45 },
   searchIcon: { marginRight: 8 },
