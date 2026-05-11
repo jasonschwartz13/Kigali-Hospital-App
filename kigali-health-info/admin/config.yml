@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: jasonschwartz13/Kigali-Hospital-App
+  branch: main 
+
+media_folder: "assets/images" # where it should save images if they upload any
+public_folder: "/images"
+
+collections:
+  - name: "guidelines"
+    label: "Clinical Guidelines"
+    folder: "data"
+    create: true # allows doctors to create brand new guidelines
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Guideline ID", name: "id", widget: "string" }
+      - { label: "Disease Title", name: "title", widget: "string" }
+      
+      # here is where we build the repeatable sections
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Paragraph Body Text", name: "body", widget: "text", required: false }
+          
+          # This creates a button for them to keep adding bullet points
+          - label: "Bullet Points"
+            name: "bullets"
+            widget: "list"
+            required: false
+            field: { label: "Bullet", name: "bullet", widget: "string" }
