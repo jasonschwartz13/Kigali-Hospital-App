@@ -1,0 +1,14 @@
+{
+  "id": "Test-Guideline",
+  "title": "Test Guideline",
+  "sections": [
+    {
+      "heading": "Intro",
+      "body": "This is just for testing",
+      "bullets": [
+        "boom",
+        "bang"
+      ]
+    }
+  ]
+}
