@@ -1,0 +1,38 @@
+name: Publish CMS Updates to App
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      # Tells GitHub to only trigger when files inside this specific subfolder change
+      - 'kigali-health-info/data/**' 
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        # Forces all terminal commands to run inside your Expo app folder
+        working-directory: ./kigali-health-info 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+
+      - name: Setup Expo
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Publish EAS Update
+        run: eas update --branch production --message "Automated update from Decap CMS" --non-interactive

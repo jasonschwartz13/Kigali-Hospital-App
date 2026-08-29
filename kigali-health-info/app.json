@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "kigali-health-info",
-    "slug": "kigali-health-info",
+    "slug": "kfh-guidelines-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,21 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6ae7dd60-0479-4029-b69e-293ce716bcee"
+      }
+    },
+    "owner": "kfh-and-uw-health-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6ae7dd60-0479-4029-b69e-293ce716bcee",
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
     }
   }
 }
