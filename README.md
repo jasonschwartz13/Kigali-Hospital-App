@@ -1,6 +1,6 @@
 # Kigali Hospital Guidelines App
 
-This cross-platform mobile application empowers physicians in Kigali, Rwanda, to quickly reference clinical guidelines, diagnose common diseases, and access infection protocols. It is built with an "offline-first" architecture to ensure reliability in low-connectivity environments, and features a completely autonomous Over-The-Air (OTA) update pipeline.
+This cross-platform mobile application empowers physicians in Kigali, Rwanda, to quickly reference clinical guidelines and access infection protocols. It is built with an "offline-first" architecture to ensure reliability in low-connectivity environments, and features a completely autonomous Over-The-Air (OTA) update pipeline.
 
 ## Architecture & Backend
 
